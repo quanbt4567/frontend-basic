@@ -1,0 +1,15 @@
+p {
+  color: grey;
+}
+
+.intro {
+  color: blue;
+}
+
+#register {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+}

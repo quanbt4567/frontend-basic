@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  background-color: #112432;
+  background-image: url("images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.btn-explore {
+  display: inline-block;
+  background-color: #169c8e;
+  color: #0d232e;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 12px 28px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-explore:hover {
+  background-color: #1bb8a8;
+}
