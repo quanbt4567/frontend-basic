@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 900px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.box {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.px-text {
+  font-size: 24px;
+}
+
+.rem-text {
+  font-size: 1.5rem;
+}
